@@ -1,0 +1,23 @@
+table {
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #383838;
+    color: #f8f8f8;
+}
+
+tr:nth-child(even) {
+    background-color: #b7b7b7;
+}
+
+td {
+    width: 150px;
+    text-align: center;
+}
+
+.sorter {
+    display: inline;
+    cursor: pointer;
+}
