@@ -50,16 +50,16 @@ function sortBy(criteria) {
 }
 
 function sortByNom() {
-    utilisateurs.sort((u1, u2) => u1[criteria].localeCompare(u2.nom));
+    utilisateurs.sort((u1, u2) => u1.nom.localeCompare(u2.nom));
     displayForceWielders();
 }
 
 function sortByPrenom() {
-    utilisateurs.sort((u1, u2) => u1[criteria].localeCompare(u2.prenom));
+    utilisateurs.sort((u1, u2) => u1.prenom.localeCompare(u2.prenom));
     displayForceWielders();
 }
 
 function sortByCamp() {
-    utilisateurs.sort((u1, u2) => u1[criteria].localeCompare(u2.camp));
+    utilisateurs.sort((u1, u2) => u1.camp.localeCompare(u2.camp));
     displayForceWielders();
 }
